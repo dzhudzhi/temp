@@ -2,6 +2,7 @@
 @import './top.css';
 @import './login.css';
 @import './domain.css';
+@import './packages.css';
 
 html {
   font-size: 10px;
@@ -11,6 +12,8 @@ html {
   margin: 0 auto;
 }
 .wrapper {
-  max-width: 1200px;
+  box-sizing: border-box;
+  max-width: 1237px;
   margin: 0 auto;
+  padding: 0 20px;
 }
