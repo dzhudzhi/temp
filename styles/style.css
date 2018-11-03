@@ -1,0 +1,16 @@
+@import './normalize.css';
+@import './top.css';
+@import './login.css';
+@import './domain.css';
+
+html {
+  font-size: 10px;
+}
+.container {
+  max-width: 1600px;
+  margin: 0 auto;
+}
+.wrapper {
+  max-width: 1200px;
+  margin: 0 auto;
+}

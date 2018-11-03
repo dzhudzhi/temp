@@ -1,0 +1,91 @@
+.domain {
+  height: 578px;
+}
+.domain h3 {
+  font-size: 2.4rem;
+  text-align: center;
+}
+.domain p {
+  font-size: 1.6rem;
+  text-align: center;
+}
+.domain form {
+  margin: 0 auto;
+  border: 1px solid #d9d9d9;
+  width: 889px;
+  height: 50px;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: space-between;
+}
+.domain-form span {
+  display: block;
+  font-size: 1.6rem;
+  color: #cbcbcb;
+  width: 70px;
+  height: 48px;
+  text-align: center;
+  line-height: 48px;
+  position: relative;
+}
+.domain-form span::after {
+  content: "";
+  display: block;
+  width: 1px;
+  height: 32px;
+  background-color: #d9d9d9;
+  position: absolute;
+  right: 0;
+  top: 8px;
+}
+.domain-form input {
+  border: none;
+  width: 100%;
+  padding: 15px;
+  font-size: 1.5rem;
+  color: #868686;
+}
+.domain table {
+  width: 889px;
+  height: 194px;
+  border: 1px solid #d9d9d9;
+  margin: 40px auto 0;
+  border-collapse: collapse;
+  box-sizing: border-box;
+  font-size: 1.4rem;
+  color: #cbcbcb;
+}
+.domain table td {
+  width: 222px;
+  height: 96px;
+  line-height: 96px;
+  text-align: center;
+  position: relative;
+  padding: 0;
+  margin: 0;
+}
+.domain table td::before,
+.domain table td::after {
+  content: "";
+  display: block;
+  background-color: #d9d9d9;
+  position: absolute;
+}
+.domain table tr:first-child td:not(:last-child)::before {
+  width: 1px;
+  height: 74px;
+  right: 0;
+  top: 16px;
+}
+.domain table tr:last-child td:not(:last-child)::before {
+  width: 1px;
+  height: 73px;
+  right: 0;
+  bottom: 16px;
+}
+.domain table td::after {
+  width: 189px;
+  height: 1px;
+  left: 26px;
+  bottom: -1px;
+}

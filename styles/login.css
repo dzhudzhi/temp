@@ -1,0 +1,23 @@
+.login {
+  height: 121px;
+  display: flex;
+  background-color: blue;
+  justify-content: space-between;
+}
+.btn {
+  height: 121px;
+  width: 40%;
+  text-align: center;
+  line-height: 121px;
+  font-size: 2.2rem;
+  text-transform: uppercase;
+  color: #fff;
+}
+.login-btn {
+  background-color: #21424a;
+}
+.login-btn::after {
+  content: "sdfsdfsdfdsf";
+  border-top: 60px solid #21424a;
+  border-right: 40px solid transparent;
+}

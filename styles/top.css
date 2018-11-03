@@ -1,0 +1,44 @@
+.top {
+  height: 944px;
+  background-image: url("../assets/images/header-bg.jpg");
+}
+.header {
+  height: 89px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #2e2e2f;
+}
+.menu {
+  display: flex;
+}
+.menu a {
+  display: flex;
+  font-size: 1.6rem;
+  text-decoration: none;
+  line-height: 89px;
+  color: #fff;
+  margin-left: 68px;
+  border-bottom: 1px solid rgba(255,255,255, 0);
+}
+.menu a:hover {
+  display: block;
+  border-bottom: 1px solid #fff;
+}
+.promo h2 {
+  margin-top: 346px;
+  margin-bottom: 33px;
+  text-transform: uppercase;
+  font-size: 7.2rem;
+  line-height: normal;
+  color: #fff;
+  text-align: center;
+}
+.promo p {
+  font-family: Georgia, serif;
+  font-style: italic;
+  font-size: 3.2rem;
+  line-height: 1.47;
+  color: #fff;
+  text-align: center;
+}
