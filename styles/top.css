@@ -13,7 +13,7 @@
   display: flex;
 }
 .menu a {
-  display: flex;
+  display: block;
   font-size: 1.6rem;
   text-decoration: none;
   line-height: 89px;
@@ -22,7 +22,6 @@
   border-bottom: 1px solid rgba(255,255,255, 0);
 }
 .menu a:hover {
-  display: block;
   border-bottom: 1px solid #fff;
 }
 .promo h2 {

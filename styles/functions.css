@@ -1,0 +1,29 @@
+.functions {
+  height: 342px;
+  background-color: #fff;
+}
+.functions .wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+.functions-item {
+  text-align: center;
+}
+.functions-item__icon {
+  font-size: 2.8rem;
+  display: inline-block;
+  width: 60px;
+  height: 60px;
+  line-height: 60px;
+  background-color: midnightblue;
+  border-radius: 50%;
+  color: #fff;
+}
+.functions-item__name {
+  font-size: 1.8rem;
+  color: #303030;
+}
+.functions-item__description {
+  font-size: 1.6rem;
+  color: #7e7e7e;
+}

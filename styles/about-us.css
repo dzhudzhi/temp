@@ -1,0 +1,68 @@
+.about-us {
+  height: 399px;
+}
+.about-us .wrapper {
+  height: 399px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.hor-separator {
+  height: 2px;
+  max-width: 1197px;
+  margin: 0 auto;
+  background: url('../assets/images/hor-separator.jpg') repeat-x;
+}
+.text {
+  width: 438px;
+}
+.text h2 {
+  margin: 0;
+  font-size: 3.5rem;
+  color: #303030;
+}
+.text p {
+  font-size: 1.8rem;
+  color: #747474;
+}
+.vert-separator {
+  width: 2px;
+  height: 184px;
+  background: url('../assets/images/vert-separator.jpg') repeat-y;
+}
+.our-team {
+  width: 598px;
+  display: flex;
+  justify-content: space-between;
+}
+.person {
+  width: 140px;
+  text-align: center;
+}
+.person .photo {
+  border: 5px solid #e5e5e5;
+  border-radius: 50%;
+  overflow: hidden;
+}
+.person .name {
+  font-size: 1.7rem;
+  color: #303030;
+}
+.person .specialty {
+  font-size: 1.5rem;
+  color: #8e8e8e;
+}
+.person .social {
+  width: 90px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+.person .social a {
+  text-decoration: none;
+  font-size: 1.8rem;
+  color: #bfbfbf;
+}
+.person .social a:hover {
+  color: #1f89ba;
+}

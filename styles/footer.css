@@ -1,0 +1,29 @@
+footer {
+  height: 294px;
+  background-color: #2a2a2a;
+}
+.footer-nav {
+  height: 75px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid #4a4a4a;
+}
+.footer-menu a {
+  font-size: 1.3rem;
+  text-decoration: none;
+  text-transform: uppercase;
+  line-height: 76px;
+  color: #686868;
+  margin-left: 39px;
+}
+.footer-menu a:hover {
+  color: #fff;
+}
+.footer-bottom {
+  display: flex;
+}
+.designed-by {
+  font-size: 1.5rem;
+  color: #686868;
+}

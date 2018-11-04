@@ -1,0 +1,30 @@
+.comments {
+  background: url('../assets/images/comments-bg.jpg') no-repeat;
+  height: 190px;
+  font-size: 2rem;
+  text-align: center;
+  color: #fff;
+}
+.comments__quote {
+}
+.comments-footer {
+  display: flex;
+  justify-content: center;
+}
+.comments-footer__author {
+  margin: 0;
+}
+.comments-footer__buttons-group {
+
+  display: flex;
+  justify-content: space-between;
+}
+.comments-footer__btn {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  border: 1px solid #fff;
+}
+.comments-footer__btn.active {
+  background-color: #fff;
+}

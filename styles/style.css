@@ -3,6 +3,10 @@
 @import './login.css';
 @import './domain.css';
 @import './packages.css';
+@import './about-us.css';
+@import './comments.css';
+@import './functions.css';
+@import './footer.css';
 
 html {
   font-size: 10px;
